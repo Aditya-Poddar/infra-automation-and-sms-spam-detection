@@ -40,7 +40,7 @@ model = pickle.load(open('model.pkl','rb'))
 image = Image.open('mimit.jpg')
 st.image(image, caption='',output_format="auto",width=700)
 
-st.title("Email/SMS Spam Classifier")
+st.title("SMS Spam Classifier")
 
 input_sms = st.text_area("Enter the message",height=200)
 
